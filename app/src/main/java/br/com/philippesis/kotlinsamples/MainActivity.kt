@@ -37,7 +37,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
 
         if (v == btnSample) {
-            this.txtSample.text = "Olá Mundo!"
+            this.txtSample.text = "Roger Philippe. Status: ${UserStatus.ACTIVE}"
+            // Or UserStatus.ACTIVE.value to receive int value
         }
 
     }
